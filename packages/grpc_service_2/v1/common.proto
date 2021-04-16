@@ -9,4 +9,5 @@ option go_package = "github.com/mogheyapoorv/proto-spec-gen-service1-go/grpc_ser
 
 message SampleMessage {
   string id = 1;
+  string name = 2;
 }
