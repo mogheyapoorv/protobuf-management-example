@@ -8,5 +8,8 @@
   },
   "author": "",
   "license": "ISC",
-  "gitHead": "11aa8c249f5d68de36e5a7b987468e9fd211963d"
+  "gitHead": "11aa8c249f5d68de36e5a7b987468e9fd211963d",
+  "dependencies": {
+    "grpc_service_1": "1.1.0"
+  }
 }
