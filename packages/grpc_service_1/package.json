@@ -1,9 +1,9 @@
 {
   "name": "grpc_service_1",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "",
   "dependencies": {
-    "grpc_service_2": "^1.1.4"
+    "grpc_service_2": "^1.1.5"
   },
   "gitHead": "114501f9d39b2693eb06c1026c6b096233ac96ca"
 }
