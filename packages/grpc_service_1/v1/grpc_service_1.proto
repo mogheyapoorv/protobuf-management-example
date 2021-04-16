@@ -7,7 +7,12 @@ option java_package = "com.example.grpc_service_1";
 option java_outer_classname = "GRPCServiceProto";
 option go_package = "github.com/mogheyapoorv/proto-spec-gen-service1-go/grpc_service_1/v1;grpc_service_1";
 
-message SampleRequest {}
+import "grpc_service_2/v1/common.proto";
+
+message SampleRequest {
+  grpc_service_2.v1.SampleMessage message = 1;
+}
+
 message SampleResponse {}
 
 service ServiceMyGRPC {

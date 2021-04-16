@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package grpc_service_2.v1;
+
+option java_multiple_files = true;
+option java_package = "com.example.grpc_service_2";
+option java_outer_classname = "GRPCServiceCommonProto";
+option go_package = "github.com/mogheyapoorv/proto-spec-gen-service1-go/grpc_service_2/v1;grpc_service_2";
+
+message SampleMessage {
+  string id = 1;
+}
