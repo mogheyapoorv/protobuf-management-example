@@ -4,5 +4,6 @@
   "description": "",
   "dependencies": {
     "grpc_service_2": "^1.1.2"
-  }
+  },
+  "gitHead": "114501f9d39b2693eb06c1026c6b096233ac96ca"
 }
