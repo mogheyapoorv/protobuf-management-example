@@ -12,6 +12,7 @@ import "grpc_service_2/v1/common.proto";
 message SampleRequest {
   grpc_service_2.v1.SampleMessage message = 1;
   string name = 2;
+  string name1= 3;
 }
 
 message SampleResponse {}
