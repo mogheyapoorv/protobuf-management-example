@@ -10,7 +10,7 @@ option go_package = "github.com/mogheyapoorv/proto-spec-gen-service2-go/grpc_ser
 import "grpc_service_2/v1/common.proto";
 
 message SampleRPCRequest {
-    grpc_service_2.v1.SampleMessage message = 1;
+    grpc_service_2.v1.CommonMessage message = 1;
 }
 
 message SampleRPCResponse {}

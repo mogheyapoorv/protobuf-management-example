@@ -8,11 +8,11 @@ option java_outer_classname = "GRPCServiceProto";
 option go_package = "github.com/mogheyapoorv/proto-spec-gen-service3-go/grpc_service_3/v1;grpc_service_3";
 
 
-message SampleRPCRequest {
+message SampleRPCRequestGRPC {
 }
 
-message SampleRPCResponse {}
+message SampleRPCResponseGRPC {}
 
 service ServiceMyGRPC2 {
-  rpc SampleRPCAPI(SampleRPCRequest) returns (SampleRPCResponse) {}
+  rpc SampleRPCAPI(SampleRPCRequestGRPC) returns (SampleRPCResponseGRPC) {}
 }
