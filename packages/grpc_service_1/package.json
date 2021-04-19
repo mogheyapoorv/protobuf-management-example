@@ -1,6 +1,6 @@
 {
   "name": "grpc_service_1",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "",
   "dependencies": {
     "grpc_service_2": "^1.1.5"
