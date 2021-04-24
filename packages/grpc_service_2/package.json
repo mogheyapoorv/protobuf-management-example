@@ -1,6 +1,6 @@
 {
   "name": "grpc_service_2",
-  "version": "1.1.5",
+  "version": "2.0.0-alpha.6+7bef6fb",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,5 +8,5 @@
   },
   "author": "",
   "license": "ISC",
-  "gitHead": "114501f9d39b2693eb06c1026c6b096233ac96ca"
+  "gitHead": "7bef6fbe1b8a591ca8121ce52e05d4f7b9eee9cd"
 }
