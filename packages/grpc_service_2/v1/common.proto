@@ -8,7 +8,7 @@ option java_outer_classname = "GRPCServiceCommonProto";
 option go_package = "github.com/mogheyapoorv/proto-spec-gen-service1-go/grpc_service_2/v1;grpc_service_2";
 
 message CommonMessage {
-  string id = 1;
+  int64 id = 1;
   string name = 2;
   string num = 3;
 }
